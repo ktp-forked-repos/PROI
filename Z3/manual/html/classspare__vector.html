@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Biblioteka operacji na macierzach i wektorach rzadkich: Dokumentacja klasy spare_vector</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy spare_vector</h1><!-- doxytag: class="spare_vector" -->
+<p>Klasa wektora rzadkiego.  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="spare__vector_8h_source.html">spare_vector.h</a>&gt;</code></p>
+
+<p><a href="classspare__vector-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classspare__vector.html">spare_vector</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a88f976bd03a0651134551fe66395d93c">operator+</a> (const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v2) const </td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Dodawanie dwoch wektorow rzadkich.  <a href="#a88f976bd03a0651134551fe66395d93c"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e4b473d4ab771c373a4698fda8c8491"></a><!-- doxytag: member="spare_vector::normal_vector" ref="a8e4b473d4ab771c373a4698fda8c8491" args="" -->
+class&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a8e4b473d4ab771c373a4698fda8c8491">normal_vector</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnormal__vector.html">normal_vector</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#acb85e0171b05f33001de64c07d5c5d5f">operator+</a> (const <a class="el" href="classnormal__vector.html">normal_vector</a> &amp;v1, const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v2)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Dodawanie dwoch wektorow: rzadkiego i normalnego.  <a href="#acb85e0171b05f33001de64c07d5c5d5f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnormal__vector.html">normal_vector</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a2aaee75c366fbda1ae8474843487d1dd">operator+</a> (const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v1, const <a class="el" href="classnormal__vector.html">normal_vector</a> &amp;v2)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Dodawanie dwoch wektorow: normalnego i rzadkiego.  <a href="#a2aaee75c366fbda1ae8474843487d1dd"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a01e3c3f384c0678432d11f9c5e8e1cd0">load_sv</a> (<a class="el" href="classspare__vector.html">spare_vector</a> &amp;v1, char name[N])</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczyt z pliku wektora rzadkiego.  <a href="#a01e3c3f384c0678432d11f9c5e8e1cd0"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a5a9733d7d1b8e0f93292aa1b87d7ead1">save_sv</a> (const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v1, char name[N])</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapis do pliku wektora rzadkiego.  <a href="#a5a9733d7d1b8e0f93292aa1b87d7ead1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">ostream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a735657a762374f3128642cd351c5509f">operator&lt;&lt;</a> (std::ostream &amp;ekran, const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v1)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Wyprowadzenie obiektu typu wektor rzadki na ekran w postaci przyjaznej uzytkownikowi.  <a href="#a735657a762374f3128642cd351c5509f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnormal__vector.html">normal_vector</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a54999af45dc96f67a87718c48a10f031">operator*</a> (const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v, const <a class="el" href="classnormal__matrix.html">normal_matrix</a> &amp;m)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Mnozenie wektora rzadkiego i macierzy pelnej.  <a href="#a54999af45dc96f67a87718c48a10f031"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnormal__vector.html">normal_vector</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspare__vector.html#a50d1fd58638b0d5b4f6d9caf3bed2916">operator*</a> (const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;v, const <a class="el" href="classc__spare__matrix.html">c_spare_matrix</a> &amp;m)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Mnozenie wektora rzadkiego i macierzy rzadkiej typu C.  <a href="#a50d1fd58638b0d5b4f6d9caf3bed2916"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa wektora rzadkiego. </p>
+<p>Definiuje element skladowy wektora jako pare wartosc-pozycja. Obejmuje dodawanie wektorow tego samego lub roznego typu. Umozliwia odczyt i zapis wektora do pliku, jak rowniez wypisanie na ekran. </p>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a88f976bd03a0651134551fe66395d93c"></a><!-- doxytag: member="spare_vector::operator+" ref="a88f976bd03a0651134551fe66395d93c" args="(const spare_vector &amp;v2) const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classspare__vector.html">spare_vector</a> spare_vector::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v2</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Dodawanie dwoch wektorow rzadkich. </p>
+<p>Wynikiem jest wektor rzadki. </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="a01e3c3f384c0678432d11f9c5e8e1cd0"></a><!-- doxytag: member="spare_vector::load_sv" ref="a01e3c3f384c0678432d11f9c5e8e1cd0" args="(spare_vector &amp;v1, char name[N])" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_sv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&nbsp;</td>
+          <td class="paramname"> <em>name</em>[N]</td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczyt z pliku wektora rzadkiego. </p>
+<p>Maksymalny rozmiar nazwy wraz z rozszerzeniem - 20 znakow.<br/>
+<br/>
+ Struktura pliku:<br/>
+<br/>
+ <code>rozmiar_wektora<br/>
+ pozycja_elementu_1 wartosc_elementu_1<br/>
+ pozycja_elementu_2 wartosc_elementu_2<br/>
+ ...<br/>
+ pozycja_elementu_x wartosc_elementu_x<br/>
+ </code> </p>
+<dl class="warning"><dt><b>Ostrzeżenie:</b></dt><dd>Elementy wektora numerowane sa od 0 do N-1, gdzie rozmiar wektora rowny jest N. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a50d1fd58638b0d5b4f6d9caf3bed2916"></a><!-- doxytag: member="spare_vector::operator*" ref="a50d1fd58638b0d5b4f6d9caf3bed2916" args="(const spare_vector &amp;v, const c_spare_matrix &amp;m)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classnormal__vector.html">normal_vector</a> operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classc__spare__matrix.html">c_spare_matrix</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>m</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Mnozenie wektora rzadkiego i macierzy rzadkiej typu C. </p>
+<p>Wynikiem jest wektor pelny. </p>
+
+</div>
+</div>
+<a class="anchor" id="a54999af45dc96f67a87718c48a10f031"></a><!-- doxytag: member="spare_vector::operator*" ref="a54999af45dc96f67a87718c48a10f031" args="(const spare_vector &amp;v, const normal_matrix &amp;m)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classnormal__vector.html">normal_vector</a> operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classnormal__matrix.html">normal_matrix</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>m</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Mnozenie wektora rzadkiego i macierzy pelnej. </p>
+<p>Wynikiem jest wektor pelny. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2aaee75c366fbda1ae8474843487d1dd"></a><!-- doxytag: member="spare_vector::operator+" ref="a2aaee75c366fbda1ae8474843487d1dd" args="(const spare_vector &amp;v1, const normal_vector &amp;v2)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classnormal__vector.html">normal_vector</a> operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classnormal__vector.html">normal_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v2</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Dodawanie dwoch wektorow: normalnego i rzadkiego. </p>
+<p>Wynikiem jest wektor pelny. </p>
+
+</div>
+</div>
+<a class="anchor" id="acb85e0171b05f33001de64c07d5c5d5f"></a><!-- doxytag: member="spare_vector::operator+" ref="acb85e0171b05f33001de64c07d5c5d5f" args="(const normal_vector &amp;v1, const spare_vector &amp;v2)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classnormal__vector.html">normal_vector</a> operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classnormal__vector.html">normal_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v2</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Dodawanie dwoch wektorow: rzadkiego i normalnego. </p>
+<p>Wynikiem jest wektor pelny. </p>
+
+</div>
+</div>
+<a class="anchor" id="a735657a762374f3128642cd351c5509f"></a><!-- doxytag: member="spare_vector::operator&lt;&lt;" ref="a735657a762374f3128642cd351c5509f" args="(std::ostream &amp;ekran, const spare_vector &amp;v1)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&nbsp;</td>
+          <td class="paramname"> <em>ekran</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v1</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Wyprowadzenie obiektu typu wektor rzadki na ekran w postaci przyjaznej uzytkownikowi. </p>
+<p><br/>
+ Efekt dzialania: <code>0 0 0 1 0 0 2 0 0 0</code> </p>
+
+</div>
+</div>
+<a class="anchor" id="a5a9733d7d1b8e0f93292aa1b87d7ead1"></a><!-- doxytag: member="spare_vector::save_sv" ref="a5a9733d7d1b8e0f93292aa1b87d7ead1" args="(const spare_vector &amp;v1, char name[N])" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void save_sv </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspare__vector.html">spare_vector</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&nbsp;</td>
+          <td class="paramname"> <em>name</em>[N]</td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapis do pliku wektora rzadkiego. </p>
+<p>Maksymalny rozmiar nazwy wraz z rozszerzeniem - 20 znakow. Struktura pliku:<br/>
+<br/>
+ <code>rozmiar_wektora<br/>
+ pozycja_elementu_1 wartosc_elementu_1<br/>
+ pozycja_elementu_2 wartosc_elementu_2<br/>
+ ...<br/>
+ pozycja_elementu_x wartosc_elementu_x<br/>
+ </code> </p>
+<dl class="warning"><dt><b>Ostrzeżenie:</b></dt><dd>Elementy wektora numerowane sa od 0 do N-1, gdzie rozmiar wektora rowny jest N. </dd></dl>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/PW/PROI/PROI_lab/Z3/<a class="el" href="spare__vector_8h_source.html">spare_vector.h</a></li>
+<li>C:/PW/PROI/PROI_lab/Z3/spare_vector.cpp</li>
+</ul>
+</div>
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Thu Jan 14 10:27:37 2010 dla Biblioteka operacji na macierzach i wektorach rzadkich programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

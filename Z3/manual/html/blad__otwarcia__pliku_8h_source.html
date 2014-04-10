@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Biblioteka operacji na macierzach i wektorach rzadkich: Plik źródłowy C:/PW/PROI/PROI_lab/Z3/blad_otwarcia_pliku.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/PW/PROI/PROI_lab/Z3/blad_otwarcia_pliku.h</h1><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef BLAD_OTWARCIA_PLIKU_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define BLAD_OTWARCIA_PLIKU_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &quot;blad.h&quot;</span>
+<a name="l00005"></a>00005 
+<a name="l00009"></a><a class="code" href="class_blad_otwarcia_pliku.html">00009</a> <span class="keyword">class </span><a class="code" href="class_blad_otwarcia_pliku.html" title="Klasa bledu otwarcia pliku.">BladOtwarciaPliku</a> : <span class="keyword">public</span> <a class="code" href="class_blad.html" title="Klasa bazowa obslugi bledow.">Blad</a>{
+<a name="l00010"></a>00010 <span class="keyword">private</span>:
+<a name="l00011"></a>00011         <span class="keywordtype">char</span>* komunikat;
+<a name="l00012"></a>00012 <span class="keyword">public</span>:
+<a name="l00013"></a>00013         <a class="code" href="class_blad_otwarcia_pliku.html" title="Klasa bledu otwarcia pliku.">BladOtwarciaPliku</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>*nazwa){
+<a name="l00014"></a>00014                 <span class="keyword">const</span> <span class="keywordtype">char</span>*format=<span class="stringliteral">&quot;Blad otwarcia pliku %s&quot;</span>;
+<a name="l00015"></a>00015                 komunikat=<span class="keyword">new</span> <span class="keywordtype">char</span>[strlen(format)+strlen(nazwa)-1];
+<a name="l00016"></a>00016                 sprintf(komunikat,format,nazwa);
+<a name="l00017"></a>00017         }
+<a name="l00018"></a>00018         <span class="keyword">const</span> <span class="keywordtype">char</span>* opis()<span class="keyword">const</span>{
+<a name="l00019"></a>00019                 <span class="keywordflow">return</span> komunikat;
+<a name="l00020"></a>00020         }
+<a name="l00021"></a>00021         ~<a class="code" href="class_blad_otwarcia_pliku.html" title="Klasa bledu otwarcia pliku.">BladOtwarciaPliku</a>(){
+<a name="l00022"></a>00022                 <span class="keyword">delete</span>[]komunikat;
+<a name="l00023"></a>00023         }
+<a name="l00024"></a>00024 };
+<a name="l00025"></a>00025 
+<a name="l00026"></a>00026 <span class="preprocessor">#endif</span>
+</pre></div></div>
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Thu Jan 14 10:27:36 2010 dla Biblioteka operacji na macierzach i wektorach rzadkich programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>
